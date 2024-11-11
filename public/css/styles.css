@@ -1,0 +1,146 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    font-family: 'Karla';
+}
+
+
+header{
+    width: 95%;
+    max-width: 555px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 12px;
+    margin-top: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h1{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+p{
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 23px;
+    margin-bottom: 23px;
+}
+
+.small-text {
+    font-size: 20px;
+  }
+
+.share-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: rgb(0, 0, 0, 0.2);
+}
+.share-button svg {
+    margin-left: 12px;
+    margin-top: 12px;
+}
+
+.container{
+    width: 91%;
+    max-width: 585px;
+    margin-top: -15px;
+    margin-left: -15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.tile {
+    width: 100%;
+    min-height: 65px;
+    background-color: rgb(255, 255, 255);
+    margin: 7px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.tile:hover{
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+    transition: box-shadow 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99), color 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99), border-color 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99), transform 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99), background-color 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99);
+}
+
+.image-container{
+    height: 96px;
+    width: 96px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.image-container img{
+    height: 100%;
+}
+
+.tile-share-button{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin: 8px;
+    flex-shrink: 0;
+
+}
+
+.tile-share-button svg{
+    margin-top: 13px;
+    margin-left: 18px;
+    color: rgb(118, 118, 118);
+}
+.icon{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin: 8px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.icon img{
+    height: 100%;
+    object-fit: cover;
+
+}
+
+
+.video-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+  }
+
+  video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+  }
