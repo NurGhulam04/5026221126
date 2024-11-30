@@ -42,7 +42,7 @@
 			</td>
 		</tr>
 		@endforeach
-	</table>a
+	</table>
 
     <br/>
 	Halaman : {{ $pegawai->currentPage() }} <br/>
