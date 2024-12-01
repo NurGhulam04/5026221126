@@ -54,3 +54,11 @@ Route::get('/pegawai/edit/{id}','App\Http\Controllers\PegawaiDBController@edit')
 Route::post('/pegawai/update','App\Http\Controllers\PegawaiDBController@update');
 Route::get('/pegawai/hapus/{id}','App\Http\Controllers\PegawaiDBController@hapus');
 Route::get('/pegawai/cari','App\Http\Controllers\PegawaiDBController@cari');
+
+Route::get('/kaos','App\Http\Controllers\KaosController@indexkaos');
+Route::get('/kaos/tambahkaos','App\Http\Controllers\KaosController@tambahkaos');
+Route::post('/kaos/storekaos','App\Http\Controllers\KaosController@storekaos');
+Route::get('/kaos/editkaos/{kode}','App\Http\Controllers\KaosController@editkaos');
+Route::post('/kaos/updatekaos','App\Http\Controllers\KaosController@updatekaos');
+Route::get('/kaos/hapuskaos/{kode}','App\Http\Controllers\KaosController@hapuskaos');
+Route::get('/kaos/carikaos','App\Http\Controllers\KaosController@carikaos');

@@ -17,7 +17,7 @@
 		<div class="row mb-3">
             <label for="jabatan" class="col-sm-2 col-form-label">Jabatan</label>
             <div class="col-sm-10">
-              <input type="text" name="jabatan" class="form-control" id="jabatan" required="required">
+              <input type="text" name="jabatan1" class="form-control" id="jabatan" required="required">
         	</div>
 		</div>
 		<div class="row mb-3">

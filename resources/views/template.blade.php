@@ -11,6 +11,12 @@
 
 </head>
 <body>
+    <div class="row mb-3 p-3">
+        <div class="col-sm-12 d-flex justify-content-center">
+            <a href="/pegawai" class="btn btn-primary me-2">Data Pegawai</a>
+            <a href="/kaos" class="btn btn-primary">Data Kaos</a>
+        </div>
+    </div>
 
 <div class="container">
     <h2>Nur Ghulam Musthafa Al Kautsar - 5026221126</h2>
