@@ -14,9 +14,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('landing.uts');
-});
+// Route::get('/', function () {
+//     return view('landing.uts');
+// });
+
+Route::get('/','App\Http\Controllers\PageCounterController@index');
 
 //route uts
 Route::get('/hello', 'App\Http\Controllers\UtsController@hello');

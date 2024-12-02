@@ -14,7 +14,8 @@
     <div class="row mb-3 p-3">
         <div class="col-sm-12 d-flex justify-content-center">
             <a href="/pegawai" class="btn btn-primary me-2">Data Pegawai</a>
-            <a href="/kaos" class="btn btn-primary">Data Kaos</a>
+            <a href="/kaos" class="btn btn-primary me-2">Data Kaos</a>
+            <a href="/" class="btn btn-primary">EAS</a>
         </div>
     </div>
 

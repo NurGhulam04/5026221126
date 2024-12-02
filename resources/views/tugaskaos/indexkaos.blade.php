@@ -32,7 +32,14 @@
 		<tr>
 			<td>{{ $k->merkkaos }}</td>
 			<td>{{ $k->stockkaos }}</td>
-			<td>{{ $k->tersedia }}</td>
+			<td>
+                @if($k->tersedia == 'y')
+                <i class="fa-solid fa-check text-success"></i>
+                @else
+                <i class="fa-solid fa-minus text-danger"></i>
+                @endif
+            </td>
+
 			<td>
 				<a href="/kaos/editkaos/{{ $k->kodekaos }}" class="btn btn-info"><i class="fa-solid fa-pen-to-square"></i></a>
 				|
