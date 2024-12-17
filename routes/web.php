@@ -64,3 +64,7 @@ Route::get('/kaos/editkaos/{kode}','App\Http\Controllers\KaosController@editkaos
 Route::post('/kaos/updatekaos','App\Http\Controllers\KaosController@updatekaos');
 Route::get('/kaos/hapuskaos/{kode}','App\Http\Controllers\KaosController@hapuskaos');
 Route::get('/kaos/carikaos','App\Http\Controllers\KaosController@carikaos');
+
+Route::get('/eas','App\Http\Controllers\easController@indexeas');
+Route::get('/eas/tambaheas','App\Http\Controllers\easController@tambaheas');
+Route::post('/eas/storeeas','App\Http\Controllers\easController@storeeas');
